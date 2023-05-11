@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul {
+    list-style: none;
+    background: #22438C;
+}
+ul li {
+    display: inline-block;
+    position: relative;
+}
+ul li a {
+    display: block;
+    padding: 20px 25px;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+ul li ul.dropdown li {
+display: block;
+}
+ul li ul.dropdown {
+width: 100%;
+background: #22438C;
+position: absolute;
+z-index: 999;
+display: none;
+}
+ul li a:hover {
+    background: #112c66;
+}
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+section{ 
+    background: url(img/ceel.gif) no-repeat; 
+    background-size: cover;
+    height: calc(200vh - 20px);
+    background-attachment: fixed;
+}
+.text-box h3{ 
+    color: #d8d8d8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 50;
+}
+.text-box h1{ 
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 50;
+}
+.text-box h2{ 
+    color: #eceeec;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 50;
+}
+.text-box p{ 
+    color: #2febeb;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 20;
+    }
+    .text-box .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 100%;
+            height: auto;
+      }
+      .my-button {
+        position: relative;
+        top: 30px;
+        background-color: #0a9e2f; /* Blue background */
+        color: #fff; /* White text */
+        padding: 10px 20px; /* Padding */
+        font-size: 16px; /* Font size */
+        border: none; /* No border */
+        border-radius: 52px; /* Rounded corners */
+        cursor: pointer; /* Cursor on hover */
+        transition: background-color 0.3s ease; /* Smooth transition */
+      }
+      
+      .my-button:hover {
+        background-color: #023a15; /* Darker blue on hover */
+      }
+
+.button-container {
+    text-align: center;
+    }
+      
+
+      
+      
